@@ -1,0 +1,78 @@
+
+* { 
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+}
+
+ol {
+    list-style-position: inside;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+/* index.html styling */
+
+.odin-recipe { 
+    background-color: #008080;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 100;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.pizza-links {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.color{
+    background-color: red;
+    height: 75px;
+    margin-top: 160px;
+}
+
+.quote {
+    text-align: center;
+    color: white;
+    padding-top: 20px
+}
+
+/* taco-pizza.html */
+
+.center-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.red-bar-left { 
+    background-color: red;
+    width: 150px;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.red-bar-right{ 
+    background-color: red;
+    width: 150px;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
